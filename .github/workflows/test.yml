@@ -16,4 +16,4 @@ jobs:
           node-version: 18
       
       - name: Test Action
-        uses: ./action1.yml
+        uses: ./
