@@ -16,4 +16,4 @@ jobs:
           node-version: 18
       
       - name: Test Action
-        uses: ./my-actions
+        uses: ./
