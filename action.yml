@@ -1,6 +1,6 @@
 name: My First Custom Action Printing Hello World
 description: This action prints Hello, World!
 runs:
-  using: node18
+  using: node16
   main: src/first.js
     
