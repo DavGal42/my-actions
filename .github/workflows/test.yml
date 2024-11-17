@@ -5,9 +5,9 @@ on:
 
 jobs:
   Test:
-    runs-on: ubuntu-
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout Code
         uses: actions/checkout@v4
       
       - name: Setup NodeJS
@@ -16,4 +16,4 @@ jobs:
           node-version: 18
       
       - name: Test Action
-        uses: ./
+        uses: ./my-actions
